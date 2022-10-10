@@ -94,7 +94,7 @@ public class PGs extends AppCompatActivity implements View.OnClickListener {
             case R.id.logout:
                 adb=new AlertDialog.Builder(this);
                 adb.setCancelable(false);
-                adb.setMessage("Are you sure to logout?");
+                adb.setMessage("Are you sure you want to logout?");
                 adb.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
