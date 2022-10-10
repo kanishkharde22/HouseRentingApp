@@ -115,7 +115,7 @@ public class signuporlogin  {
             t2.setVisibility(View.VISIBLE);
             if((e1.getText().toString().isEmpty())||(e3.getText().toString().isEmpty()))
             {   t2.setTextColor(Color.RED);
-                t2.setText("EMPTY!...FILL EVERYTHING");
+                t2.setText("EMPTY!...PLEASE FILL EVERYTHING");
             }
             else
             {  t2.setVisibility(View.INVISIBLE);
