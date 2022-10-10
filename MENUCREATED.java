@@ -29,7 +29,7 @@ Button b7,b8,blogout;
         b7.setOnClickListener(this);
         b8.setOnClickListener(this);
         blogout.setOnClickListener(this);
-        blogout.setBackgroundColor(Color.RED);
+        blogout.setBackgroundColor(Color.BLUE);
         blogout.setTextColor(Color.YELLOW);
         blogout.setVisibility(View.INVISIBLE);
     }
